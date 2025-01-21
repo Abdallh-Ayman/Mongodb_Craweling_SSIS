@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Jobs_Hr"
+  DTS:DTSID="{84BE60B8-BE8B-455B-A300-08A6AB3DF70F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Jobs_Hr;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Mongodb_to_sql_server-{84BE60B8-BE8B-455B-A300-08A6AB3DF70F}LocalHost.Jobs_Hr;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
