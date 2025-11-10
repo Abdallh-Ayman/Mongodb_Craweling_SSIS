@@ -2,6 +2,7 @@
 
 I’m thrilled to present a comprehensive **data project** where I brought together various tools and techniques to transform raw data into **actionable insights**. 🚀
 
+<img width="1280" height="353" alt="image" src="https://github.com/user-attachments/assets/c9ba4070-60df-466c-8786-684b79f4480f" />
 ---
 
 ## 📘 Project Overview
@@ -10,12 +11,31 @@ This project integrates **data collection**, **ETL processing**, and **data visu
 ---
 
 ## 📂 Repository Structure
-📦 Data Engineering and Visualization Project
-├── ssis_packges/Mongodb_to_sql_server # SSIS packages for ETL from MongoDB to SQL Server
-├── wuzzuf_API_webscraping # Python scripts for Wuzzuf API and web scraping
-├── Egyptian Tech Jobs.pbix # Power BI dashboard for job insights
-├── Jobs_Hr.bak # SQL Server backup file
-└── hr-data.csv # Cleaned HR dataset used for analytics
+# 📦 Data Engineering and Visualization Project
+
+This project involves the extraction, transformation, and loading (ETL) of job data, followed by analysis and visualization to gain insights into the Egyptian tech job market.
+
+## Components
+
+### `ssis_packges/Mongodb_to_sql_server`
+- Contains SSIS (SQL Server Integration Services) packages designed for performing ETL operations.
+- These packages handle the extraction of data from a MongoDB source and load it into a SQL Server database.
+
+### `wuzzuf_API_webscraping`
+- A collection of Python scripts.
+- These scripts are used to gather job data by interacting with the Wuzzuf API and performing web scraping on the Wuzzuf website.
+
+### `Egyptian Tech Jobs.pbix`
+- The Power BI dashboard file.
+- This file contains the interactive visualizations, reports, and insights derived from the analyzed job data.
+
+### `Jobs_Hr.bak`
+- A SQL Server backup file.
+- This file contains the schema and data for the `Jobs_Hr` database after the ETL process.
+
+### `hr-data.csv`
+- A cleaned dataset in CSV format.
+- This file represents the refined data used for the analytics and visualizations within the Power BI dashboard.
 ---
 
 ## ⚙️ Project Breakdown
@@ -59,8 +79,6 @@ I searched extensively and couldn’t find helpful tutorials on this topic, but 
 
 ---
 
-
-<img width="1280" height="353" alt="image" src="https://github.com/user-attachments/assets/c9ba4070-60df-466c-8786-684b79f4480f" />
 
 
 ## 📫 Contact
